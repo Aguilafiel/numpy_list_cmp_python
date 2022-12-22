@@ -11,6 +11,8 @@
 # Requiere mayor tiempo de dedicación e investigación autodidacta.
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
+import random
+import numpy as np
 
 '''
 Enunciado:
@@ -32,5 +34,9 @@ if __name__ == '__main__':
     print('Comenzamos a divertirnos!')
     # A partir de aquí escriba el código que resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
-
+    lista3 = [random.randrange(1|11) for x in range(3)]
+    print(lista3)
+    suma = sum(lista3)
+    print('la suma de puntos es: ' , suma)
     print("terminamos")
+    
